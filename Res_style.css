@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+*{
+    box-sizing:border-box;
+    font-family:'roboto condensed';
+}
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+/*Name + contact info*/
+.personal_details{
+    text-align: center;
+}
+
+.name{
+  text-decoration: underline;
+  color:navy;
+}
+
+.contact_info{
+    display:inline;
+    padding:20px;
+}
+
+/*main body*/
+.headings{
+  list-style: none;
+}
+
+#timeline{
+  padding-left: 50%;
+}
